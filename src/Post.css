@@ -1,0 +1,111 @@
+#post {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px gray;
+}
+
+#post h1 {
+  font-size: 16px;
+  text-align: center;
+  background-color: lightgray;
+  padding: 4px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.radio-container {
+  display: flex;
+}
+
+.radio {
+  margin-right: 10px;
+}
+
+.radio-label {
+  display: flex;
+  margin-right: 100px;
+}
+
+.input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  border: 1px solid whitesmoke;
+}
+
+#post-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#post-button {
+  padding: 10px 20px;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#post-button:hover {
+  background-color: darkseagreen;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+#post-type {
+  display: flex;
+  padding-block: 16px;
+}
+
+#upload-button {
+  width: 100%;
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#upload-button:hover {
+  background-color: darkseagreen;
+}
+
+.image-preview {
+  margin-top: 10px;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
